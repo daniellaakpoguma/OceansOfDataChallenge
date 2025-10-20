@@ -1,0 +1,50 @@
+/* Blue ombré background applied to the app container */
+[data-testid="stAppViewContainer"] {
+min-height: 100vh;
+background: linear-gradient(180deg, #d7f3ff 0%, #9fd9ff 35%, #4aa3ff 70%, #1160d8 100%);
+background-attachment: fixed;
+}
+
+
+/* Centering container used in the app */
+.center-container {
+min-height: 72vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* HEADING */
+/* Strong selector + !important to override Streamlit defaults */
+h1.main-heading {
+  color: #24b919 !important;                 /* gold/yellow color */
+  -webkit-text-fill-color: #24b919 !important; /* safari/chrome text fill */
+  background: none !important;               /* remove any gradient background-clip */
+  text-align: center !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  font-family:Helvetica;
+  margin: 0.6rem 0 !important;
+  text-shadow: 2px 2px #000000;
+}
+
+.main-buttons {
+  background-color: #5d078f;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 30px 2px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
